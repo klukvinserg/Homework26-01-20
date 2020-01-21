@@ -29,9 +29,15 @@
    }
 
    .shop {
-     
        display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+   }
+
+   .product-inner {
+       width: 90%;
+       height: 90%;
+       background-color: red;
+       margin: auto;
    }
 
  
